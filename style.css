@@ -1,0 +1,31 @@
+body {
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+canvas {
+    position:absolute;
+    margin:0;
+    padding:0;
+    background-color: pink;
+}
+
+button, img {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width:10vmin;
+    height:10vmin;
+    background-color: transparent;
+    border: none;
+    transition: 0.2s;
+}
+
+img:active {
+    width:15vmin;
+    height:15vmin;
+}
